@@ -1,0 +1,601 @@
+﻿[Adblock Plus 2.0]
+! Title: Makani Private Block List - uBlock List
+! Last modified: 16 Mar 2023 13:00 UTC
+! Homepage: https://github.com/rusingineer/mpbl
+!
+! This is a private list,
+! will not provide any technical support
+! Russian support of https://github.com/rusingineer/mpbl
+! please create issues
+! GNU GPL 2+ Licensed
+! coding: utf-8, expires: 5 days
+!
+!-----------------------General advert blocking filters-----------------------!
+!#include easylist/easylist_general_block.txt
+!#include easylist/easylist_general_block_dimensions.txt
+!#include easylist/easylist_general_block_popup.txt
+!------------------------General element hiding rules-------------------------!
+!#include easylist/easylist_general_hide.txt
+!#include easylist/easylist_allowlist_general_hide.txt
+!---------------------------Third-party advertisers---------------------------!
+!#include easylist/easylist_adservers.txt
+!#include easylist/easylist_adservers_popup.txt
+!#include easylist_adult/adult_adservers.txt
+!#include easylist_adult/adult_adservers_popup.txt
+!-----------------------------Third-party adverts-----------------------------!
+!#include easylist/easylist_thirdparty.txt
+!#include easylist/easylist_thirdparty_popup.txt
+!#include easylist_adult/adult_thirdparty.txt
+!#include easylist_adult/adult_thirdparty_popup.txt
+!----------------------Specific advert blocking filters-----------------------!
+!#include easylist/easylist_specific_block.txt
+!#include easylist/easylist_specific_block_popup.txt
+!#include easylist_adult/adult_specific_block.txt
+!#include easylist_adult/adult_specific_block_popup.txt
+!------------------------Specific element hiding rules------------------------!
+!#include easylist/easylist_specific_hide.txt
+!#include easylist/easylist_specific_hide_abp.txt
+!#include easylist_adult/adult_specific_hide.txt
+!-----------------------Allowlists to fix broken sites------------------------!
+!#include easylist/easylist_allowlist.txt
+!#include easylist/easylist_allowlist_dimensions.txt
+!#include easylist/easylist_allowlist_popup.txt
+!#include easylist_adult/adult_allowlist.txt
+!#include easylist_adult/adult_allowlist_popup.txt
+!--------------------------General blocking rules-----------------------------!
+!#include easylist_cookie/easylist_cookie_general_block.txt
+!------------------------General element hiding rules-------------------------!
+!#include easylist_cookie/easylist_cookie_general_hide.txt
+!-------------------------Third-party blocking rules--------------------------!
+!#include easylist_cookie/easylist_cookie_thirdparty.txt
+!--------------------------Specific blocking filters--------------------------!
+!#include easylist_cookie/easylist_cookie_specific_block.txt
+!------------------------Specific element hiding rules------------------------!
+!#include easylist_cookie/easylist_cookie_specific_hide.txt
+! Include ubO specific
+!#include easylist_cookie/easylist_cookie_specific_uBO.txt
+!#include easylist_cookie/easylist_cookie_specific_ABP.txt
+!------------------------Rules for international sites------------------------!
+!#include easylist_cookie/easylist_cookie_international_specific_hide.txt
+!#include easylist_cookie/easylist_cookie_international_specific_block.txt
+!---------------------------------Allowlists----------------------------------!
+!#include easylist_cookie/easylist_cookie_allowlist_general_hide.txt
+!#include easylist_cookie/easylist_cookie_allowlist.txt
+!-----------------General tracking systems-----------------!
+!#include easyprivacy/easyprivacy_general.txt
+!-----------------Third-party tracking domains-----------------!
+!#include easyprivacy/easyprivacy_trackingservers.txt
+!-----------------International third-party tracking domains-----------------!
+!#include easyprivacy/easyprivacy_trackingservers_international.txt
+!-----------------Third-party tracking services-----------------!
+!#include easyprivacy/easyprivacy_thirdparty.txt
+!-----------------International third-party tracking services-----------------!
+!#include easyprivacy/easyprivacy_thirdparty_international.txt
+!-----------------Individual tracking systems-----------------!
+!#include easyprivacy/easyprivacy_specific.txt
+!-----------------Individual cname tracking systems-----------------!
+!#include easyprivacy/easyprivacy_specific_cname.txt ***
+!-----------------International individual tracking systems-----------------!
+!#include easyprivacy/easyprivacy_specific_international.txt ***
+!-----------------------Allowlists to fix broken sites------------------------!
+!#include easyprivacy/easyprivacy_allowlist.txt ***
+!----------------Allowlists to fix broken international sites-----------------!
+!#include easyprivacy/easyprivacy_allowlist_international.txt ***
+!--------------------------General blocking rules-----------------------------!
+!#include fanboy-addon/fanboy_annoyance_general_block.txt ***
+!#include fanboy-addon/fanboy_notifications_general_block.txt ***
+!#include fanboy-addon/fanboy_newsletter_general_block.txt ***
+!#include fanboy-addon/fanboy_social_general_block.txt ***
+!#include easylist_cookie/easylist_cookie_general_block.txt ***
+! https://github.com/AdguardTeam/AdguardFilters/blob/master/AnnoyancesFilter/sections/cookies_specific.txt#L53
+!------------------------General element hiding rules-------------------------!
+!#include fanboy-addon/fanboy_annoyance_general_hide.txt ***
+!#include fanboy-addon/fanboy_notifications_general_hide.txt ***
+!#include fanboy-addon/fanboy_newsletter_general_hide.txt ***
+!#include fanboy-addon/fanboy_social_general_hide.txt ***
+!#include easylist_cookie/easylist_cookie_general_hide.txt ***
+!-------------------------Third-party blocking rules--------------------------!
+!#include fanboy-addon/fanboy_annoyance_thirdparty.txt ***
+!#include fanboy-addon/fanboy_notifications_thirdparty.txt ***
+!#include fanboy-addon/fanboy_newsletter_thirdparty.txt ***
+!#include fanboy-addon/fanboy_social_thirdparty.txt ***
+!#include fanboy-addon/fanboy_sounds_thirdparty.txt ***
+!#include easylist_cookie/easylist_cookie_thirdparty.txt ***
+!--------------------------Specific blocking filters--------------------------!
+!#include fanboy-addon/fanboy_annoyance_specific_block.txt ***
+!#include fanboy-addon/fanboy_notifications_specific_block.txt ***
+!#include fanboy-addon/fanboy_newsletter_specific_block.txt ***
+!#include fanboy-addon/fanboy_social_specific_block.txt ***
+!#include easylist_cookie/easylist_cookie_specific_block.txt ***
+!------------------------Specific element hiding rules------------------------!
+!#include fanboy-addon/fanboy_annoyance_specific_hide.txt ***
+!#include fanboy-addon/fanboy_notifications_specific_hide.txt ***
+!#include fanboy-addon/fanboy_newsletter_specific_hide.txt ***
+!#include fanboy-addon/fanboy_newsletter_specific_ABP.txt ***
+!#include fanboy-addon/fanboy_social_specific_hide.txt ***
+!#include easylist_cookie/easylist_cookie_specific_hide.txt ***
+!#include easylist_cookie/easylist_cookie_specific_ABP.txt ***
+!------------------------Rules for international sites------------------------!
+!#include fanboy-addon/fanboy_social_international.txt ***
+!#include fanboy-addon/fanboy_newsletter_international_block.txt ***
+!#include fanboy-addon/fanboy_newsletter_international_hide.txt ***
+!#include easylist_cookie/easylist_cookie_international_specific_hide.txt ***
+!#include easylist_cookie/easylist_cookie_international_specific_block.txt ***
+!---------------------------------Allowlists----------------------------------!
+!#include fanboy-addon/fanboy_annoyance_allowlist_general_hide.txt ***
+!#include fanboy-addon/fanboy_notifications_allowlist_general_hide.txt ***
+!#include fanboy-addon/fanboy_social_allowlist_general_hide.txt ***
+!#include fanboy-addon/fanboy_newsletter_allowlist.txt ***
+!#include fanboy-addon/fanboy_newsletter_allowlist_general_hide.txt ***
+!#include easylist_cookie/easylist_cookie_allowlist_general_hide.txt ***
+!#include fanboy-addon/fanboy_annoyance_allowlist.txt ***
+!#include fanboy-addon/fanboy_notifications_allowlist.txt ***
+!#include easylist_cookie/easylist_cookie_allowlist.txt ***
+!#include fanboy-addon/fanboy_social_allowlist.txt ***
+!-----------------------General advert blocking filters China-----------------!
+!#include Gythialy-s-List/my_custom_list.txt ***
+!#include Gythialy-s-List/my_custom_list_hide.txt ***
+!-----------------------General advert blocking filters YousList--------------!
+!#include YousList/youslist.txt ***
+! = Сайты-попапы (самостоятельно открываются в новом окне) ====================
+!#include advblock/popup.txt ***
+! = Общие CSS-фильтры =========================================================
+!#include advblock/general_hide.txt ***
+! = Общие правила блокировки ==================================================
+!#include advblock/general_block.txt ***
+! = Блокировка доменов ========================================================
+!#include advblock/first_level.txt ***
+! -----------------------------------------------------------------------------
+!#include advblock/thirdparty.txt ***
+! -----------------------------------------------------------------------------
+!#include advblock/adservers.txt ***
+! = Частные правила для сайтов(блокировка и скрытие) ==========================
+!#include advblock/specific_hide.txt ***
+! -----------------------------------------------------------------------------
+!#include advblock/specific_block.txt ***
+! -----------------------------------------------------------------------------
+!#include advblock/specific_special.txt ***
+! -----------------------------------------------------------------------------
+!#include advblock/specific_antisocial.txt ***
+! = Исключения ================================================================
+!#include advblock/whitelist.txt ***
+!---------------------------------MPBL----------------------------------!
+! *** mpub_increment.txt ***
+!  Adblock Killer
+advrush.com^$script
+viewclc.com^$script
+domertb.com^$script
+ijsve.com^$script
+||fresh.baza-failov.ru^,popup
+||disredi.ru^
+||oztumte.ru^
+||lizhodo.ru^
+||nwmum.com
+||v.tsnisme.pw
+||atlanhe.ru^
+||adjs.ru/cu.js
+magicplayer-s.acestream.net/stat.js
+||deffki.su/ts/^
+gradeclick.ru^
+erodomen.ru/popup.js
+gotoredr.com/js/
+||s.designiruyou.ru^
+||xyya.net/ppp.js
+||finmonitor.com.ua/freenet^
+||news4u.biz/js/out/^$script
+||ph.sy-do-ni-an.com
+||xiuuh.com
+||newbestslot.com^$popup
+||fibrid.ru^$script
+||hrust.net^$popup
+||my-adv.ru^$script
+||readme.ru^$popup
+/kadam.base.min.js
+||errantolo.com^
+||kartinka.in^$third-party
+||qtymi.com^$script
+||manymoney.erohd.net^$script
+||advertoly.com^$script
+rt.tizerlady.info/init.js
+||znews.su^$script
+||seethisinaction.com^
+||geo.frtya.com
+101.ru,5.ua,prophotos.ru,tfilm.me,tfilm.tv##.branding
+||code.d-agency.net
+||kuhni.kuhnisister.ru
+||vogotita.com/rotator/
+||files.adselector.ru/ads.js
+||epara.ru^$popup
+||winvideo.org^$script
+||static.weborama.io^$script
+||otmolod.ru^$script
+||rteneme.ru^$script
+/viewt.js
+jsn.st02.net^$script
+xiepl.com^$script
+ctyzd.com^$script
+new.js.krutilka.net^$script
+bzlwe.com^$script
+nvjqm.com^$script
+c.labadon.com^$script
+ddomb.com^$third-party
+olizyr.com^$script
+cdn.hgdat.com^$script
+recreativ.ru^$script
+rarenok.biz^$script
+lepubs.com^$script
+ochze.com^$script
+justmi4.co.in^$subdocument
+101widgets.com
+widgetsmonster.com
+xuxu.org.ua
+widgetok.com
+mygold.pp.ua
+widgeta.net
+videoseed.ru^$script
+n161adserv.com
+rtcontrol.ru
+zxrtn.com/js/^$script
+cdn.savage.nu^$script
+cdn-rtb.sape.ru^$script
+trafmag.com/sitecode^$script
+||x-tds-adv.com^$third-party
+lvuic.com^$script
+tsnisme.pw/x?bid=^$script
+web.imgbum.net^$script
+best.imgbum.net^$script
+tizru.com/tizer/^$script
+myuniques.biz^$script
+ads.advelogy.ru/getcode/ads.php?id=^$script
+zaebaladblock.ru^$script
+cholaga.ru^$script
+ckqby.com^$script
+v.cuioj.com^$script
+v.ksdnf.com^$script
+v.vvvsd.space^$script
+v.qpovpaways.pw^$script
+v.vxqpomwum.pw^$script
+v.cmsat.space^$script
+v.ckpvz.space^$script
+v.dbncp.com^$script
+v.gfhdkse.com^$script
+gnezdo.ru/show/
+xawab.com/static/foobar.js
+fpmef.com^$script
+newsriver.net/load/^$script
+nyyed.com^$script
+bjpwv.com^$script
+xawab.com^$script
+ayjvb.com/js/
+vcnnz.com/js/
+||p.uocux.com/s/
+bannersold.eu/tizer.php^$script
+bvyvk.space^$script
+sontere.com^$script
+aintes.com^$script
+excalatom.com^$script
+carveac.com^$script
+pketred.com^$script
+nalabutenahah.com^$script
+echo.andase.com^$script
+qrrgv.space^$script
+s.mixadvert.com^$script
+berle.ru^$script
+zba.kbllskkwvp.pw^$script
+adeclc.com^$script
+xaogi.com^$script
+n.actionpay.ru/rotator/
+web-box.ru/snow.js
+nnmclub.to###brTop
+fortuka.com/sys/js/^script
+fsb-lawbreakers.net^$script,inline-script
+maps.yandex.ru###ya_partner_R-142300-1
+cdn7.network
+psma01.com/js/sys.js
+echo.scund.com
+polerix.ru
+rt.rtl1.biz/init.js
+block.s1venus.com^$third-party
+music.yandex.ru##.sidebar__under
+northstar.porntube.com/tracker.php
+||porntube.com/adc/porntube_b2.php
+||porntube.com/adc/pop_ex.php
+jdgwr.space^$script
+ydare.space^$script
+kinak.top^$script
+zpkds.space^$script
+alslz.top^$script
+adavz.xyz^$popup
+et-code.ru/bens/
+cdn1ht.traffichaus.com
+4tube.com/adb/
+.net/code/show.php?id=
+! Навязчивая реклама
+.net/news.js
+.ru/news.js
+.com/news.js
+.tv/news.js
+.top/news.js
+aenjj.com^$script
+xexyc.com^$script
+wjzvx.com^$script
+bytde.com^$script
+ipsqh.com^$script
+xtvoh.com^$script
+xjqha.com^$script
+neqky.com^$script
+osqbk.com^$script
+azmdy.com^$script
+pfrve.xyz^$script
+dfebr.com^$script
+bkrkv.com^$script
+wmwyq.xyz^$script
+wydpt.com^$script
+cdcwn.xyz^$script
+fmywa.xyz^$script
+ldnxy.xyz^$script
+lpmde.xyz^$script
+gladra.ru^$script
+zqizn.com^$script
+ikiif.com^$script
+dexpz.xyz^$script
+yfkha.xyz^$script
+twgib.xyz^$script
+pofqm.xyz^$script
+chabg.top^$script
+avacd.us^$script
+iqnbe.top^$script
+mxttrf.com^$script
+tmqhw.us^$script
+zwvwh.us^$script
+t.4623.ru^$script
+nenrk.us^$script
+dabca.top^$script
+ahial.top^$script
+svotu.top^$script
+dtudz.top^$script
+rxtbb.top^$script
+qcjam.top^$script
+tggay.top^$script
+oogzc.top^$script
+dlski.space^$script
+aoodw.top^$script
+jaqmk.top^$script
+mxxpa.top^$script
+v.zxpxt.space^$script
+v.uaadi.com^$script
+xpbgo.top^$script
+tqqjk.top^$script
+daopz.top^$script
+iwtra.top^$script
+okcbb.top^$script
+lptiu.top^$script
+koova.top^$script
+tgnvk.top^$script
+fttmayia.xyz^$script
+mcbag.top^$script
+nxstx.top^$script
+clhko.top^$script
+ozdau.top^$script
+fmhcj.top^$script
+gsnnx.top^$script
+wksym.top^$script
+mybce.top^$script
+ugyfw.top^$script
+rclmc.top^$script
+mqpte.top^$script
+dtwpb.xyz^$script
+ghyrqvw.xyz^$script
+ynfolstw.xyz^$script
+cgfleuvly.xyz^$script
+tmuurnthtf.xyz^$script
+/TotemTools/PModelsEngine.swf
+rustorka.com##[href*="pidaras"]
+rustorka.com##[gandon]
+vulkan-vulkan.net
+xarisma.ru/ldif/
+join.massagegirls18.com
+bobshouseofporn.com/images/tanner1.jpg
+bobshouseofporn.com/images/tanner2.jpg
+nhqqv.space^$script
+tlafu.space^$script
+ztmol.club^$script
+pornhub.com##script:contains(requestAds)
+nux.fotoviagra.ru
+||ice.adult-torrent.com^
+||http://g-tv.ru/megogo.php^
+hbigaci.ru/8edzrkj3ztr6397lcbwtg4tnrov5n4l
+||ffff.1tbporno.ru^
+xf.tubecontext.com/tc-embed.min.js
+||torchbrowser.com^
+||g-tv.ru/megogo.php^
+@@||nodview.net.ru
+||c.novostimira.biz
+||news.smi2.ru^
+||novostimira.com.ua
+||novostimira.ua
+@@||fishki.^
+st.top100.ru/top100/top100.js
+||v.spdnipdp.pw^$script
+||rabotka-legko.info^popup
+||dyzha.com/js/^
+||v.vsimasd.pw^$third-party
+||omanpic.ru^$third-party
+/tk.php?k=
+||volisa.ru^$third-party
+tmserver-1.com^$third-party
+||w.uptolike.com
+cdn.dumedia.ru/js/dumedia.js
+||cukcopo.ru
+kolyan.net/cl1.js
+||elevemoney.ru
+jsc.marketgid.com
+||zba.kbllskkwvp.pw/v?s&b=^$popup
+||v2mlamber.com^third-party
+! 18.08.2015, 22:56:26 mail.ru Yandex.Search video
+forum.adult-torrent.com/90k6u4gfifw6xorvykgu1g11uez0omdx
+hopilos.com/static/tds.js
+coolsor.ru/862o44246cf660zh5tkr9wvlx8fbvit
+code.ahahahah.ru/include/region.php/
+dirtix.com/i.php
+vdevkah.com/f9db6e.js
+i.lichenz.ru/v/^
+cyku.su/a75ddc.js
+skratche.com/js/main.js
+joomla.ru/images/banners/kisa-314x314.swf
+advertom.com^$script
+byuop.com/inc/angular.js
+fix.sex-empire.tv
+ts.film-adult.com
+###dle-content > .cs-style-4.grid1
+russian-mwd.ddns.net^$important
+yyuin.com/js/
+||anyorigin.com^$third-party
+prwidgets.com
+builtmodels.com/pop-
+twiget/js/twiget.js
+belole.ru
+||192.168.*/images/adv_^$important
+bonusmne.com^$third-party,popup
+vulkan.site^$third-party,popup
+c.luxup.ru
+##.lx_wrap
+t.mmnt.net^$script
+||viamichelin.*^$important,third-party
+||polirtb.com/js/
+/cpv/v.php
+t.cnsjx.net/view.asp
+##.b-context__mailruVertical
+##.b-context__horizontal
+webbabe.ws/player/html.php?aid=start_html&video_id=
+brazzers-hd.com/js/brazzers.js
+hittoadv.com/static/foobar.js
+frmsafe.com/cu2.php
+v2mlemerald.com^$script
+vvmblock.ru/vm.js
+network-t.net^$script
+##.b-slot_banner__direct_mailruVertical
+##.w-banner
+profitwizard.net
+hhit.xyz/js-sync.js
+xcadr.com/tds/
+tizerlink.com/show/out.php
+ads.exoclick.com/ad_track.js
+syndication.exoclick.com
+gos-arhiv.ru^
+||xxxsex8.com/true.Multiniche.php
+doge-faucet.tk/advertisement.js^$important
+/videoadcode
+varsloqt.name
+psma03.com/js/sys.js
+zoz.seksi-new.ru
+get-news.net/show.js
+standadv.com/static/r.js
+wyfpz.xyz
+best-film4ik.ru/a-detector/^$script
+echo.andumb.com
+kiinnostaa.org/statsit.php
+kiinnostaa.org/tekstimainos.php
+kiinnostaa.org/tekstimainos2.php
+kiinnostaa.org/ylamainos.php
+kiinnostaa.org/mainoskaruselli_alaosa.php
+kiinnostaa.org/arvonta
+eroadvertising.com/get.php
+||install.wtf^$important
+lishuanghao.com
+push.zhanzhang.baidu.com
+u5.8ox.cn
+4wad.com/show.php
+v.img80.net/showpage2.asp
+pics-money.ru/Picsmoneyclick.js
+go.oclasrv.com
+c0594.com
+cubis.yyouut.ru
+ma-static.ru/sticker/
+globalteaser.ru/show/
+dominasy.com
+dynsrvaba.com
+/exo_backend_loader.php
+news.yandex.ru##:xpath(//ul[contains(@class,"search-list")]/li[contains(@class,"search-item")][.//text()="Яндекс.Директ"])
+lriver.ru
+google.megapost.org
+/exo/backend_loader.php
+/ts/block_script.php
+clck.ru/AKjQii
+115.236.4.14:8016/show.php^$script
+v.hr41.cn/showpage2.asp^$script
+rjs.niuxgame77.com/r/f.php^$script
+8ox.cn/pge/^$script
+russia-mvd.flnet.org
+www.gismeteo.ru##.pageblock
+@@api.odnoklassniki.ru/js/fapi5.js
+||traffic-media.co^$script
+vogorana.ru
+trafgid.com
+newserv.xyz
+||fastpic.ru^$inline-script
+*://load.jsecoin.com/*
+*://*.coin-hive.com/lib*
+*://*.coin-hive.com/proxy*
+*://*.coin-hive.com/captcha*
+*://*.edgeno.de/*
+*://*.reasedoper.pw/*
+*://*.mataharirama.xyz/*
+*://*.listat.biz/*
+*://*.lmodr.biz/*
+*://*.jyhfuqoh.info/*
+*://*.coinhive.com/lib*
+*://*.coinhive.com/proxy*
+*://*.coinhive.com/captcha*
+*://*.minemytraffic.com/lib*
+*://*.2giga.link/js*
+*://*.crypto-loot.com/lib*
+! Azino777
+.ru/video2/14.mp4
+! http://c1.4h5dt1a4xhy62.ru/video2/
+! http://c1.900ux9fdare8.ru/video2/
+! http://c1.lu280xwdejk.ru/video2/
+||probank.site
+*://*adshunter.*
+aj1616.online
+rekvid1.ru
+vifog.com
+cdn7.rocks
+||smilemust.ru^$third-party
+zdatexmf.ru^$inline-script
+tizerbox.lesbi-show.com
+media.reformal.ru/widgets/
+meta.ua/silence/
+sejw.ibifa.biz
+6b48dda8ee041f.com
+ero-top.com##script:inject(xxx-hunt-er.xyz/bens/vinos.js)
+xian0gy6e2y7r.ru
+@@xian0gy6e2y7r.ru/hdplayer/js/*.js
+@@xian0gy6e2y7r.ru/video/*
+fderty.com/cu3.php
+mstat.acestream.net
+ymetrica1.com
+!  Anti-Adblock Killer
+caminspector.net^$inline-script
+! Google specific
+||g.doubleclick.net
+||ad.doubleclick.net
+||ad.de.doubleclick.net
+||googlesyndication.com
+googleadservices.com^$script
+googletagservices.com/tag/js/gpt.js
+googletagservices.com/tag/js/gpt_mobile.js
+||google.com/adsense/start/videos/^$important
+! White list
+@@||myvi.ru/player/
+@@spynet.ru^
+@@||camgirlsonline.com^$document
+@@||edk.peerates.net^$document
+@@||sale-promo.ru^$document
+@@||siliconrus.com^$document
+@@/admodule.min.css^$domain=ololo.fm
+@@/admodule.min.js^$domain=ololo.fm
+@@||imgsmail.ru/mail/ru/images/js/myjs/mm/out/min/audio-player/track.js$domain=videoapi.my.mail.ru
+@@||overclockers.ru/images/*_brand.
+@@vid.lsw.hd.redtubefiles.com^$media,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
+@@vid.lsw.redtubefiles.com^$media,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
